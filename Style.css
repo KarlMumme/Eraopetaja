@@ -72,11 +72,10 @@ nav ul li a:hover.active
     float: right;
 }
 .login {
-    width: 382px;  
+    width: 400px;  
         overflow: hidden;  
-        margin: auto;  
-        margin: 20 0 0 450px;  
-        padding: 80px;  
+        margin: auto;    
+        padding: 60px;  
         background: #23463f;  
         border-radius: 15px ;
 }
@@ -85,15 +84,32 @@ nav ul li a:hover.active
     height: 30px;  
     border: none;  
     border-radius: 3px;  
-    padding-left: 8px;  
+    padding-left: 5px; 
+    padding-right: 5px; 
 }
 #Pass{  
     width: 300px;  
     height: 30px;  
     border: none;  
     border-radius: 3px;  
-    padding-left: 8px;
-}   
+    padding-left: 5px;
+}
+.nupp{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;
+}
+span{  
+    color: white;  
+    font-size: 17px;
+}
+a{  
+    align-items: center;  
+    background-color: #08ffd1;  
+}    
 h5 {  
     text-align: center;  
     color: #277582;  
