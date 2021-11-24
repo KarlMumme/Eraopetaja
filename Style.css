@@ -62,15 +62,18 @@ nav ul li a:hover.active
 .detel
 {
     margin-left: 8%;
-    margin-top: 15%;
+    margin-top: 8%;
 }
 .picture
 {
     margin-right: 8%;
     margin-left: 8%;
-    top: 2%;
-    mix-blend-mode: screen;
+    margin-top: 3%;
+    mix-blend-mode: overlay;
     float: right;
+    border-style: double;
+    border-color: #f1f1f1;
+    border-width: 2px;
 }
 .login {
     width: 400px;  
@@ -124,24 +127,28 @@ section
 {
     border-radius: 30px;
     background-color: rgb(18, 86, 117);
+    mix-blend-mode:overlay;
     mask-border-width: 2PX;
     border-color: aliceblue;
-    width: 33%;
+    width: 100;
     margin-left: 4%;
-    margin-top: 2%;
+    margin-right: 4%;
+    margin-top: 10%;
     align-self: auto;
 }
 section h1
 {
-    color: white;
+    color:wheat;
     text-align: center;
     text-transform: uppercase;
+    margin-left: 5%;
 }
 section h4
 {
     text-transform: uppercase;
-    color: #b2b2b2;
+    color:black;
     text-align: center;
+    margin-left: 8%;
 }
 * {box-sizing: border-box}
 
