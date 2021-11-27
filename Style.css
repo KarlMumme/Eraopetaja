@@ -69,6 +69,15 @@ nav ul li a:hover.active
         background: #23463f;  
         border-radius: 15px ;
 }
+.registreeri {
+    width: 400px;  
+        overflow: hidden;  
+        margin: auto;    
+        padding: 60px;  
+        background: #23463f;  
+        border-radius: 15px ;
+    height: 500px;
+}
 #kasutaja {  
     width: 300px;  
     height: 30px;  
@@ -92,9 +101,17 @@ nav ul li a:hover.active
     padding-left: 7px;  
     color: blue;
 }
+.kast{
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: blue;
+}
 span{  
     color: white;  
-    font-size: 17px;
+    font-size:17px;
 }
 a{  
     align-items: center;  
