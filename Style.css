@@ -25,6 +25,7 @@ nav .logo{
     margin-left: 5%;
     margin-top: 0;
     mix-blend-mode: color-burn;
+    align-items: center;
 }
 nav ul{
     display: flex;
@@ -69,6 +70,15 @@ nav ul li a:hover.active
         background: #23463f;  
         border-radius: 15px ;
 }
+.registreeri {
+    width: 400px;  
+        overflow: hidden;  
+        margin: auto;    
+        padding: 60px;  
+        background: #23463f;  
+        border-radius: 15px ;
+    height: 500px;
+}
 #kasutaja {  
     width: 300px;  
     height: 30px;  
@@ -92,9 +102,17 @@ nav ul li a:hover.active
     padding-left: 7px;  
     color: blue;
 }
+.kast{
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: blue;
+}
 span{  
     color: white;  
-    font-size: 17px;
+    font-size:17px;
 }
 a{  
     align-items: center;  
@@ -111,7 +129,7 @@ label {
 }
 section{
     border-radius: 30px;
-    background-color: rgb(18, 86, 117);
+    background-color: rgb(28, 94, 124);
     mix-blend-mode:overlay;
     mask-border-width: 2PX;
     border-color: aliceblue;
@@ -123,18 +141,26 @@ section{
 }
 section h1{
     color:wheat;
+    font-size: 30px;
     text-align: center;
     text-transform: uppercase;
     margin-left: 5%;
 }
 section h4{
     text-transform: uppercase;
-    color:black;
+    color:wheat;
     text-align: center;
     margin-left: 8%;
+    font-size: 20px;
 }
 * {box-sizing: border-box}
 
+section h5{
+    text-transform: uppercase;
+    color:white;
+    text-align: center;
+    font-size: large;
+}
 /* Add padding to containers */
 .container {
   padding: 16px;
@@ -196,7 +222,6 @@ a {
     left: 0;
     width: 100%;
     padding: 30px 0px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
@@ -204,7 +229,7 @@ a {
 .kontaktid section h1 {
     text-transform: uppercase;
     align-items: center;
-    color: #165669;
+    color: #041c24;
 }
 .kontaktid section ul{
     display: flex;

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registreeri</title> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h5>Registreeri</h5><br>
+    <form action="Esileht.html" method="get">
+        <div class="registreeri">
+
+                <label for="name">Ees ja perekonnanimi</label>
+                <input class="kast" type="text" name="name" id="name" required>
+                <label for="email">Email</label>
+                <input class="kast" type="email" name="email" id="email" required>
+
+                <label for="date">Sünnikuupäev</label>
+                <input class="kast" type="date" name="date" id="date" min="1920-01-01" required>
+
+                <label>
+                    Parool
+                    <input class="kast" type="password" name="password" required>
+                </label>
+                <div>
+                    <label for="male">Mees</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                </div>
+                <div>
+                    <label for="female">Naine</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                </div>
+                <button type="submit" class="nupp">Registreeri</button>
+        </div>
+        </form>
+</body>
