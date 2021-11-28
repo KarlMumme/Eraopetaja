@@ -102,6 +102,16 @@ nav ul li a:hover.active
     padding-left: 7px;  
     color: blue;
 }
+.tagasinupp{  
+    width: 150px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 12px;  
+    padding-left: 7px;  
+    color: blue;
+    background-color: wheat;
+    text-decoration: none;
+}
 .kast{
     width: 300px;
     height: 20px;
