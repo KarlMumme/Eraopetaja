@@ -109,7 +109,7 @@ nav ul li a:hover.active
     border-radius: 12px;  
     padding-left: 7px;  
     color: blue;
-    background-color: wheat;
+    background: linear-gradient(hsl(251, 96%, 68%),rgb(236, 229, 253));
     text-decoration: none;
 }
 .kast{
