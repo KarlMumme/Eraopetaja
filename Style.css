@@ -128,7 +128,7 @@ label {
 }
 section{
     border-radius: 30px;
-    background-color: rgb(18, 86, 117);
+    background-color: rgb(28, 94, 124);
     mix-blend-mode:overlay;
     mask-border-width: 2PX;
     border-color: aliceblue;
@@ -140,18 +140,26 @@ section{
 }
 section h1{
     color:wheat;
+    font-size: 30px;
     text-align: center;
     text-transform: uppercase;
     margin-left: 5%;
 }
 section h4{
     text-transform: uppercase;
-    color:black;
+    color:wheat;
     text-align: center;
     margin-left: 8%;
+    font-size: 20px;
 }
 * {box-sizing: border-box}
 
+section h5{
+    text-transform: uppercase;
+    color:white;
+    text-align: center;
+    font-size: large;
+}
 /* Add padding to containers */
 .container {
   padding: 16px;
@@ -213,7 +221,6 @@ a {
     left: 0;
     width: 100%;
     padding: 30px 0px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
@@ -221,7 +228,7 @@ a {
 .kontaktid section h1 {
     text-transform: uppercase;
     align-items: center;
-    color: #165669;
+    color: #041c24;
 }
 .kontaktid section ul{
     display: flex;
