@@ -7,8 +7,8 @@
 </head>
 <body>
     <h3 style="padding-left: 47%;">Registreeri</h3><br>
-    <form action="index.html" method="get">
         <div class="registreeri">
+            <form action="index.html" method="get">
 
                 <label for="name">Ees ja perekonnanimi</label>
                 <input class="kast" type="text" name="name" id="name" required>
@@ -31,11 +31,13 @@
                     <input type="radio" name="gender" id="female" value="female">
                 </div>
                 <button type="submit" class="nupp">Registreeri</button>
+                <br><br><br>
+            </form>
+
+            <form id="tagasi" method="get" action="index.html">
+                <button class="nupp" type="submit" id="tagasinupp">
+                    Tagasi
+                </button>
+            </form>
         </div>
-        </form>
-<a href="index.html" style="text-decoration: none; height: 3px; width: 7px; border-radius: 18px;">
-    <button class="tagasinupp">
-        Tagasi
-    </button>
-</a>
 </body>
